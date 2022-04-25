@@ -29,6 +29,9 @@
                 <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" parent="1" source="3" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="3" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="3" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
@@ -44,14 +47,17 @@
                 <mxCell id="5" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="580" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Ask user to enter as many numbers as they want" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="320" width="120" height="60" as="geometry"/>
+                <mxCell id="6" value="Ask user to enter an amount of numbers to add" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="Add all numbers together that are positive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
                     <mxGeometry x="354" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="Show sum of all numbers added" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="320" width="130" height="60" as="geometry"/>
+                    <mxGeometry x="575" y="320" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Get all numbers from user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
